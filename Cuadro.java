@@ -27,10 +27,10 @@ public void setTitulo (String nuevoTitulo){
 }
 
 public void caducidadTasacion (int aniosDeValidezTasacion){
-    int anioCaducidadTasacion = anioRealizacion + aniosDeValidezTasacion;
+    anioRealizacion = anioRealizacion + aniosDeValidezTasacion;
 } 
 
-public void setRestaurado() {
+public void cambiarOpcionRestaurado() {
     if(restaurado == false){
         restaurado = true;
     }
